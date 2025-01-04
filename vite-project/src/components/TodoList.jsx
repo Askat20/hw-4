@@ -16,7 +16,7 @@ export const TodoList = () => {
   };
 
   const toggleComplete = (index) => {
-    const newTodos = [...todos];
+пше фвв     const newTodos = [...todos];
     newTodos[index].completed = !newTodos[index].completed;
     setTodos(newTodos);
   };
